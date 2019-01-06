@@ -1,0 +1,100 @@
+.title-name1 {
+    font-size: 40px;
+    color: orangered;
+    font-weight: bolder;
+    animation-name: titleanimate;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+}
+
+@keyframes titleanimate {
+    0% {color: orangered;}
+    50% {color: red;}
+    100% {color: orangered;}
+}
+
+.title-name2 {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    animation-name: lowtitleanimate;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+}
+
+@keyframes lowtitleanimate {
+    0% {color: red;}
+    50% {color: orangered;}
+    100% {color: red;}
+}
+
+.title-name3 {
+    font-size: 15px;
+    color: orange;
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.container {
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+    margin-top: 5px;
+    box-shadow: 4px 4px 1px 2px grey;
+}
+
+.getcard {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    box-shadow: 4px 4px 1px 2px grey;
+}
+
+.sentence {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 40px 40px 40px 40px;
+    animation-name: sentenceanimate;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    transition-property: border-style;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+}
+
+.sentence:hover {
+    border-style: dashed;
+}
+
+@keyframes sentenceanimate {
+    0% {border-radius: 0px 0px 0px 0px;}
+    50% {border-radius: 10px 10px 10px 10px;}
+    100% {border-radius: 40px 40px 40px 40px;}
+}
+
+.arrayele {
+    padding: 5px;
+    border: 1px dashed grey;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 10px;
+    color: white;
+}
+
+.workitem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tip {
+    font-size: 15px;
+    color: white;
+}
